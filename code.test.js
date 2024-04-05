@@ -3,6 +3,8 @@ const assert = require("assert");
 
 
 function fib(n) { //recursive fib function taken from the lecture slides
+  if (n == 0)
+    return 0;
   if(n <= 2) 
     return 1;
   else 
