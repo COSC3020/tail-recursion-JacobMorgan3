@@ -11,24 +11,24 @@ function fib(n) { //recursive fib function taken from the lecture slides
 
 ///////////Test 1 
 let n = 0; //base case 
-assert(fib(n) == helper(n));
+assert(fib(n) == code.helper(n));
 
 
 ///////////Test 2 
 n = 1; //base case 
-assert(fib(n) == helper(n));
+assert(fib(n) == code.helper(n));
 
 
 ///////////Test 3 
 n = 6; 
-assert(fib(n) == helper(n));
+assert(fib(n) == code.helper(n));
 
 
 ///////////Test 3 
 n = 6; 
-assert(fib(n) == helper(n));
+assert(fib(n) == code.helper(n));
 
 
 ///////////Test 4
 n = 15; 
-assert(fib(n) == helper(n));
+assert(fib(n) == code.helper(n));
